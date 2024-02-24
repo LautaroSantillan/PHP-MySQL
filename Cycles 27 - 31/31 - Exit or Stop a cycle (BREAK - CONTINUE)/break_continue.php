@@ -13,7 +13,7 @@
     $pc = ["SO", "SSD", "GPU", "RAM", "CPU"];
     foreach($pc as $component){
         echo $component."<br>";
-        if($component == "RAM"){
+        if($component == "GPU"){
             break;
         }
     }
